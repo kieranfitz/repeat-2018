@@ -1,0 +1,22 @@
+{
+  "name": "repeat-lab1",
+  "version": "1.0.0",
+  "description": "repeat lab 1",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "author": "kieranfitz",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^9.0.0",
+    "babel-preset-env": "^1.7.0",
+    "eslint": "^5.4.0",
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3"
+  }
+}
